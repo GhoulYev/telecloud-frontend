@@ -1,0 +1,14 @@
+#content {
+	background-color: var(--background-color);
+	flex: 1;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.cards {
+	width: 90%;
+	height: min-content;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}

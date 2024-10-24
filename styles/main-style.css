@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color: var(--background-color);
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.main-text-light {
+	font-family: 'IBM Plex Mono', monospace;
+	font-weight: 300;
+	font-style: normal;
+	color: var(--text-color);
+}
+
+.main-text-medium {
+	font-family: 'IBM Plex Mono', monospace;
+	font-weight: 500;
+	font-style: normal;
+	color: var(--text-color);
+}
