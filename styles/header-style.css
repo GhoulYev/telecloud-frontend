@@ -1,12 +1,12 @@
 header {
 	width: auto;
 	height: 5vh;
-	margin-bottom: 3%;
 	align-items: center;
 	padding-left: 5%;
 	background-color: var(--darker-gray-color);
 	border-bottom: 1px solid var(--primary-green);
 	box-shadow: 0px 4px 12px -6px var(--primary-green);
+	z-index: 1;
 }
 
 #head {

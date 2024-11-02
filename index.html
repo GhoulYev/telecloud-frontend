@@ -11,6 +11,8 @@
 		<link rel="stylesheet" href="./styles/header-style.css" />
 		<link rel="stylesheet" href="./styles/content-style.css" />
 		<link rel="stylesheet" href="./styles/main-style.css" />
+		<link rel="stylesheet" href="./styles/button-style.css" />
+		<link rel="stylesheet" href="./styles/modal-style.css" />
 		<title>telecloud</title>
 	</head>
 	<body>
@@ -21,50 +23,19 @@
 				</div>
 			</header>
 			<div id="content">
-				<div class="cards">
-					<div class="card">
-						<img src="./assets/mc-file-audio.svg" alt="file-image" />
-						<span class="main-text-medium">filename.mp4</span>
-						<div class="main-text-medium"><span>Download</span></div>
-					</div>
-
-					<div class="card">
-						<img src="./assets/mc-file-audio.svg" alt="file-image" />
-						<span class="main-text-medium">filename.mp4</span>
-						<div class="main-text-medium"><span>Download</span></div>
-					</div>
-					<div class="card">
-						<img src="./assets/mc-file-audio.svg" alt="file-image" />
-						<span class="main-text-medium">filename.mp4</span>
-						<div class="main-text-medium"><span>Download</span></div>
-					</div>
-					<div class="card">
-						<img src="./assets/mc-file-audio.svg" alt="file-image" />
-						<span class="main-text-medium">filename.mp4</span>
-						<div class="main-text-medium"><span>Download</span></div>
-					</div>
-					<div class="card">
-						<img src="./assets/mc-file-audio.svg" alt="file-image" />
-						<span class="main-text-medium">filename.mp4</span>
-						<div class="main-text-medium"><span>Download</span></div>
-					</div>
-					<div class="card">
-						<img src="./assets/mc-file-audio.svg" alt="file-image" />
-						<span class="main-text-medium">filename.mp4</span>
-						<div class="main-text-medium"><span>Download</span></div>
-					</div>
-					<div class="card">
-						<img src="./assets/mc-file-audio.svg" alt="file-image" />
-						<span class="main-text-medium">filename.mp4</span>
-						<div class="main-text-medium"><span>Download</span></div>
-					</div>
-					<div class="card">
-						<img src="./assets/mc-file-audio.svg" alt="file-image" />
-						<span class="main-text-medium">filename.mp4</span>
-						<div class="main-text-medium"><span>Download</span></div>
-					</div>
+				<div class="cards"></div>
+			</div>
+		</div>
+		<div class="modal">
+			<div class="modal-path-content">
+				<input type="text" placeholder="поддомен" class="main-text-light" id="path-input"/>
+				<div class="button" id="begin">
+					<span class="main-text-light">ОК</span>
 				</div>
 			</div>
 		</div>
+		<script src="scripts/api.js"></script>
+		<script src="scripts/create-card.js"></script>
+		<script src="scripts/main-script.js"></script>
 	</body>
 </html>
