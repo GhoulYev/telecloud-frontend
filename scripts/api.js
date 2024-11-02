@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:3000/';
+const baseUrl = 'https://api.nishimara.vlad/';
 
 const getFiles = async (path) => {
 	const Head = new Headers();
