@@ -1,4 +1,4 @@
-const baseUrl = 'https://api.nishimara.com/vlad';
+const baseUrl = 'https://api.nishimara.com/vlad/';
 
 const getFiles = async (path) => {
 	const Head = new Headers();

@@ -1,5 +1,5 @@
 const imgPath = './assets/';
-const downloadPath = baseUrl + '/download';
+const downloadPath = baseUrl + 'download/';
 const imgSrc = {
 	audio: 'mc-file-audio.svg',
 	word: 'mc-file-document.svg',
