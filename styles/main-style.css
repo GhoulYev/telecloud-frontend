@@ -19,6 +19,10 @@ body {
 	position: relative;
 }
 
+#button-text {
+	transition: 300ms;
+}
+
 .main-text-light {
 	font-family: 'IBM Plex Mono', monospace;
 	font-weight: 300;
