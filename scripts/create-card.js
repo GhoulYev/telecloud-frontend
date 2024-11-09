@@ -70,7 +70,7 @@ const createCard = (fileName, fileId) => {
 	span.innerText = fileName;
 
 	div.addEventListener('click', () => {
-		window.open(`${downloadPath}/${fileId}`);
+		window.open(`${downloadPath}${fileId}`);
 	});
 
 	button.append(buttonSpan);
